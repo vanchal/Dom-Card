@@ -1,0 +1,54 @@
+body{
+    width : 100vw;
+    /* background-color: aqua; */
+}
+
+.content{
+    /* background-color: blue; */
+    margin : auto;
+    width :fit-content;
+}
+
+.container{
+    margin : 20px;
+    padding : 10px 0;
+    width : 100%;
+    border : solid 5px purple;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#card{
+    margin : 10px;
+    padding : 10px 0;
+    display : flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+#card img {
+    width : 20%;
+    margin : 20px;
+}
+
+#cardsection p{
+    font-size : 2rem;
+    text-align: justify;
+    margin : 20px;
+}
+
+.container button{
+    width : 20vh;
+    height : 5vh;
+    border : solid red 5px;
+    background-color: rgba(255, 99, 71, 0.8);
+}
+
+#info{
+    margin : 20px;
+    padding : 10px 0;
+    width : 100%;
+    border : solid 5px purple;
+    border-radius: 50px;
+    text-align: center;
+}
